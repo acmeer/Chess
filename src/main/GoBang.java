@@ -16,7 +16,9 @@ public class GoBang {
         //棋盘 (0:空 1:黑 2:白)
         final int[][] a = new int[15][15];
         a[7][7] = 1;
+        //画棋盘
         checkerboard(a);
+        System.out.println("PLEASE ENTER WHITE:");
         final Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextLine()) {
             final int x = scanner.nextInt();
@@ -40,6 +42,7 @@ public class GoBang {
                 System.out.println("BLACK SUCCESS");
                 return;
             }
+            System.out.println("PLEASE ENTER WHITE:");
         }
     }
 
@@ -60,18 +63,18 @@ public class GoBang {
                     System.out.print(WHITE + " ");
                 }
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 
     //随机输入
     private static int[][] randomInput(final int[][] a) {
-        final int x = (int) ((Math.random()*15+1) / 1);
-        final int y = (int) ((Math.random()*15+1) / 1);
-        if(a[x][y] != 0) {
+        final int x = (int) ((Math.random() * 15) / 1);
+        final int y = (int) ((Math.random() * 15) / 1);
+        if (a[x][y] != 0) {
             return randomInput(a);
         }
-        System.out.println(x + " " + y);
+        System.out.println("BLACK:" + x + " " + y);
         a[x][y] = 1;
         return a;
     }

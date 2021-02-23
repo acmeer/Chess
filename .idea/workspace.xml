@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2cb18fa4-651a-4122-9a1f-75ba91459373" name="Default Changelist" comment="更新代码提示">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Chess/main/ChineseChess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Chess/main/GoBang.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GoBang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GoBang.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="819e3418-7a6d-43ce-a612-105334d0018b" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\SGS\Documents\JavaWorkspace\Chess" />
+        <option value="C:\Users\SGS\Documents\JavaWorkspace\Chess\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1opIRjlmqUspvkZk59lR2pfZQhp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager" selected="Application.GoBang">
+    <configuration name="ChineseChess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.ChineseChess" />
+      <module name="Chess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoBang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.GoBang" />
+      <module name="Chess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GoBang" />
+        <item itemvalue="Application.ChineseChess" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cb18fa4-651a-4122-9a1f-75ba91459373" name="Default Changelist" comment="" />
+      <created>1613977098104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613977098104</updated>
+      <workItem from="1613977101101" duration="1400000" />
+      <workItem from="1613978798222" duration="4629000" />
+      <workItem from="1613984202148" duration="2311000" />
+      <workItem from="1614043091667" duration="13364000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新代码提示" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新代码提示" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="569" y="117" key="CommitChangelistDialog2" timestamp="1614065300189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="569" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614065300189" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1614065053698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614065053698" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1614062377839">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614062377839" />
+    <state x="785" y="418" width="373" height="204" key="Github.CreateGistDialog" timestamp="1614062092118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="785" y="418" width="373" height="204" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614062092118" />
+    <state x="663" y="417" width="274" height="209" key="Github.ShareDialog" timestamp="1614062430642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="663" y="417" width="274" height="209" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614062430642" />
+    <state x="730" y="227" key="Github.UntrackedFilesDialog" timestamp="1614062454586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="227" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614062454586" />
+    <state width="1877" height="183" key="GridCell.Tab.0.bottom" timestamp="1614065300213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614065300213" />
+    <state width="1877" height="183" key="GridCell.Tab.0.center" timestamp="1614065300213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="183" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614065300213" />
+    <state width="1877" height="183" key="GridCell.Tab.0.left" timestamp="1614065300213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="183" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614065300213" />
+    <state width="1877" height="183" key="GridCell.Tab.0.right" timestamp="1614065300213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="183" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614065300213" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1614062337587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614062337587" />
+    <state x="663" y="152" key="refactoring.ChangeSignatureDialog" timestamp="1614064034840">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="663" y="152" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614064034840" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1613985578277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613985578277" />
+  </component>
+</project>
