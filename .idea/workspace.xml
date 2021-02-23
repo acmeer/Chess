@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cb18fa4-651a-4122-9a1f-75ba91459373" name="Default Changelist" comment="更新代码提示">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Chess/main/ChineseChess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Chess/main/GoBang.class" afterDir="false" />
+    <list default="true" id="2cb18fa4-651a-4122-9a1f-75ba91459373" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/saveactions_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/main/GoBang.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/main/GoBang.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GoBang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GoBang.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RunManager" selected="Application.GoBang">
     <configuration name="ChineseChess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -109,22 +108,41 @@
       <workItem from="1613977101101" duration="1400000" />
       <workItem from="1613978798222" duration="4629000" />
       <workItem from="1613984202148" duration="2311000" />
-      <workItem from="1614043091667" duration="13364000" />
+      <workItem from="1614043091667" duration="21931000" />
     </task>
+    <task id="LOCAL-00001" summary="更新代码提示">
+      <created>1614065321783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614065321783</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新代码提示" />
     <option name="LAST_COMMIT_MESSAGE" value="更新代码提示" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="569" y="117" key="CommitChangelistDialog2" timestamp="1614065300189">
+    <state x="569" y="117" key="CommitChangelistDialog2" timestamp="1614065321290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="569" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614065300189" />
+    <state x="569" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614065321290" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1614065053698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -145,33 +163,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="730" y="227" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614062454586" />
-    <state width="1877" height="183" key="GridCell.Tab.0.bottom" timestamp="1614065300213">
+    <state width="1877" height="66" key="GridCell.Tab.0.bottom" timestamp="1614072799737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614065300213" />
-    <state width="1877" height="183" key="GridCell.Tab.0.center" timestamp="1614065300213">
+    <state width="1877" height="66" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614072799737" />
+    <state width="1877" height="66" key="GridCell.Tab.0.center" timestamp="1614072799737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="183" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614065300213" />
-    <state width="1877" height="183" key="GridCell.Tab.0.left" timestamp="1614065300213">
+    <state width="1877" height="66" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614072799737" />
+    <state width="1877" height="66" key="GridCell.Tab.0.left" timestamp="1614072799737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="183" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614065300213" />
-    <state width="1877" height="183" key="GridCell.Tab.0.right" timestamp="1614065300213">
+    <state width="1877" height="66" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614072799737" />
+    <state width="1877" height="66" key="GridCell.Tab.0.right" timestamp="1614072799737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="183" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614065300213" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1614062337587">
+    <state width="1877" height="66" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614072799737" />
+    <state width="1877" height="280" key="GridCell.Tab.1.bottom" timestamp="1614072738306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614062337587" />
+    <state width="1877" height="280" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614072738306" />
+    <state width="1877" height="280" key="GridCell.Tab.1.center" timestamp="1614072738306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614072738306" />
+    <state width="1877" height="280" key="GridCell.Tab.1.left" timestamp="1614072738306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614072738306" />
+    <state width="1877" height="280" key="GridCell.Tab.1.right" timestamp="1614072738306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614072738306" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1614071214519">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614071214519" />
     <state x="663" y="152" key="refactoring.ChangeSignatureDialog" timestamp="1614064034840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="663" y="152" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614064034840" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1613985578277">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1614070875965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613985578277" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614070875965" />
   </component>
 </project>

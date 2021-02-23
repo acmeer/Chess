@@ -23,22 +23,22 @@ public class GoBang {
         while (scanner.hasNextLine()) {
             final int x = scanner.nextInt();
             final int y = scanner.nextInt();
-            if (a[x][y] != 0) {
+            if (checkingInputOne(a, x, y) == 0) {
                 System.out.println("ERROR,please input again");
                 continue;
             }
             a[x][y] = 2;
             checkerboard(a);
             //判断是否胜利
-            if (gameOver(a, x, y, 2) == 1) {
+            if (gameOver(a, x, y, 2, 5) == 1) {
                 System.out.println("WHITE SUCCESS");
                 return;
             }
             //随机输入黑子
-            randomInput(a);
+            InputOne(a, x, y);
             checkerboard(a);
             //判断是否胜利
-            if (gameOver(a, x, y, 1) == 1) {
+            if (gameOver(a, x, y, 1, 5) == 1) {
                 System.out.println("BLACK SUCCESS");
                 return;
             }
@@ -47,24 +47,67 @@ public class GoBang {
     }
 
     //画棋盘
-    private static void checkerboard(final int[][] a){
-        for(int j=14;j>=0;j--){
-            if(j<10) {
+    private static void checkerboard(final int[][] a) {
+        for (int j = 14; j >= 0; j--) {
+            if (j < 10) {
                 System.out.print(" " + j + " ");
-            }else{
+            } else {
                 System.out.print(j + " ");
             }
-            for (int i=0;i<15;i++){
-                if (a[i][j] == 0){
+            for (int i = 0; i < 15; i++) {
+                if (a[i][j] == 0) {
                     System.out.print("  ");
-                }else if(a[i][j] == 1){
+                } else if (a[i][j] == 1) {
                     System.out.print(BLACK + " ");
-                }else{
+                } else {
                     System.out.print(WHITE + " ");
                 }
             }
             System.out.println();
         }
+        System.out.println();
+    }
+
+    //输入方式：当白子三个连成一排就堵
+    private static int[][] InputOne(final int[][] a, final int whiteX, final int whiteY) {
+//        if (gameOver(a, whiteX, whiteY, 2, 3) == 1) {
+//            if (gameOverOne(a, whiteX, whiteY, 2, 3)) {
+//
+//            }
+//        } else {
+        final int x = (int) ((Math.random() * 15) / 1);
+        final int y = (int) ((Math.random() * 15) / 1);
+        if (a[x][y] != 0 || !(checkingInputTwo(a, x, y, 1))) {
+            return InputOne(a, whiteX, whiteY);
+        }
+        System.out.println("BLACK:" + x + " " + y);
+        a[x][y] = 1;
+        return a;
+//        }
+    }
+
+    //检查输入范围是否正确
+    private static int checkingInputOne(final int[][] a, final int x, final int y) {
+        return (a[x][y] != 0 || x > 14 || y > 14) ? 0 : 1;
+    }
+
+    //检查周围n个格子内是否有棋子
+    private static boolean checkingInputTwo(final int[][] a, final int x, final int y, final int n) {
+        for (int i = 0; i <= n; i++) {
+            for (int j = 0; j <= n; j++) {
+                if (i == 0 && j == 0) continue;
+                if (x + i <= 14 && y + i <= 14 && a[x + i][y + i] != 0) {
+                    return true;
+                } else if (x - i >= 0 && y + i <= 14 && a[x - i][y + i] != 0) {
+                    return true;
+                } else if (x - i >= 0 && y - i >= 0 && a[x - i][y - i] != 0) {
+                    return true;
+                } else if (x + i <= 14 && y - i >= 0 && a[x + i][y - i] != 0) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     //随机输入
@@ -79,68 +122,86 @@ public class GoBang {
         return a;
     }
 
-    //判断是否胜利
-    private static int gameOver(final int[][] a, final int x, final int y, final int color) {
-        //横排
+    //判断是否连成n个(1:是 0:否)
+    private static int gameOver(final int[][] a, final int x, final int y, final int color, final int n) {
+        if (gameOverOne(a, x, y, color, n)) return 1;
+        if (gameOverTwo(a, x, y, color, n)) return 1;
+        if (gameOverThree(a, x, y, color, n)) return 1;
+        if (gameOverFour(a, x, y, color, n)) return 1;
+        return 0;
+    }
+
+    //判断是否连成n个(1:是 0:否)-横排
+    private static boolean gameOverOne(final int[][] a, final int x, final int y, final int color, final int n) {
         int sum = 1;
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= n; i++) {
             if (a[x - i][y] != color || x - i < 0) {
                 break;
             }
             sum++;
         }
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= n; i++) {
             if (a[x + i][y] != color || x + i < 0) {
                 break;
             }
             sum++;
         }
-        if (sum == 5) return 1;
-        //竖排
-        sum = 1;
-        for (int i = 1; i <= 5; i++) {
+        return sum == n;
+    }
+
+    //判断是否连成n个(1:是 0:否)-竖排
+    private static boolean gameOverTwo(final int[][] a, final int x, final int y, final int color, final int n) {
+        int sum = 1;
+        for (int i = 1; i <= n; i++) {
             if (a[x][y - i] != color || y - i < 0) {
                 break;
             }
             sum++;
         }
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= n; i++) {
             if (a[x][y + i] != color || y + i < 0) {
                 break;
             }
             sum++;
         }
-        if (sum == 5) return 1;
-        // /排
-        sum = 1;
-        for (int i = 1; i <= 5; i++) {
+        return sum == n;
+    }
+
+    //判断是否连成n个(1:是 0:否)-/排
+    private static boolean gameOverThree(final int[][] a, final int x, final int y, final int color, final int n) {
+        int sum = 1;
+        for (int i = 1; i <= n; i++) {
             if (a[x - i][y - i] != color || x - i < 0 || y - i < 0) {
                 break;
             }
             sum++;
         }
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= n; i++) {
             if (a[x + i][y + i] != color || x + i < 0 || y + i < 0) {
                 break;
             }
             sum++;
         }
-        if (sum == 5) return 1;
-        // \排
-        sum = 1;
-        for (int i = 1; i <= 5; i++) {
-            if (a[x - i][y + i] != color || x - i < 0 || y + i < 0) {
-                break;
-            }
-            sum++;
-        }
-        for (int i = 1; i <= 5; i++) {
-            if (a[x + i][y - i] != color || x + i < 0 || y - i < 0) {
-                break;
-            }
-            sum++;
-        }
-        return sum == 5 ? 1 : 0;
+        return sum == n;
     }
+
+    //判断是否连成n个(1:是 0:否)-\排
+    private static boolean gameOverFour(final int[][] a, final int x, final int y, final int color, final int n) {
+        int sum = 1;
+        for (int i = 1; i <= n; i++) {
+            if (a[x - i][y - i] != color || x - i < 0 || y - i < 0) {
+                break;
+            }
+            sum++;
+        }
+        for (int i = 1; i <= n; i++) {
+            if (a[x + i][y + i] != color || x + i < 0 || y + i < 0) {
+                break;
+            }
+            sum++;
+        }
+        return sum == n;
+    }
+
 
 }
