@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cb18fa4-651a-4122-9a1f-75ba91459373" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/saveactions_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess/main/GoBang.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/main/GoBang.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GoBang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GoBang.java" afterDir="false" />
@@ -21,7 +21,13 @@
   </component>
   <component name="Git.Settings">
     <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Sgs" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="819e3418-7a6d-43ce-a612-105334d0018b" />
@@ -46,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Github" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RunManager" selected="Application.GoBang">
@@ -109,6 +115,7 @@
       <workItem from="1613978798222" duration="4629000" />
       <workItem from="1613984202148" duration="2311000" />
       <workItem from="1614043091667" duration="21931000" />
+      <workItem from="1614130152202" duration="2759000" />
     </task>
     <task id="LOCAL-00001" summary="更新代码提示">
       <created>1614065321783</created>
@@ -117,7 +124,28 @@
       <option name="project" value="LOCAL" />
       <updated>1614065321783</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="优化黑棋逻辑">
+      <created>1614133244353</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614133244353</updated>
+    </task>
+    <task id="LOCAL-00003" summary="优化黑棋逻辑">
+      <created>1614133359764</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614133359764</updated>
+    </task>
+    <task id="LOCAL-00004" summary="优化黑棋逻辑">
+      <created>1614133712712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614133712712</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,31 +154,64 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新代码提示" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新代码提示" />
+    <MESSAGE value="优化黑棋逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化黑棋逻辑" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="569" y="117" key="CommitChangelistDialog2" timestamp="1614065321290">
+    <state x="569" y="117" key="CommitChangelistDialog2" timestamp="1614133882362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="569" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614065321290" />
+    <state x="569" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614133882362" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1614065053698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614065053698" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1614062377839">
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1614133542440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614062377839" />
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614133542440" />
     <state x="785" y="418" width="373" height="204" key="Github.CreateGistDialog" timestamp="1614062092118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -163,22 +224,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="730" y="227" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614062454586" />
-    <state width="1877" height="66" key="GridCell.Tab.0.bottom" timestamp="1614072799737">
+    <state width="1877" height="114" key="GridCell.Tab.0.bottom" timestamp="1614133263832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="66" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614072799737" />
-    <state width="1877" height="66" key="GridCell.Tab.0.center" timestamp="1614072799737">
+    <state width="1877" height="114" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614133263832" />
+    <state width="1877" height="114" key="GridCell.Tab.0.center" timestamp="1614133263832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="66" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614072799737" />
-    <state width="1877" height="66" key="GridCell.Tab.0.left" timestamp="1614072799737">
+    <state width="1877" height="114" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614133263832" />
+    <state width="1877" height="114" key="GridCell.Tab.0.left" timestamp="1614133263832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="66" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614072799737" />
-    <state width="1877" height="66" key="GridCell.Tab.0.right" timestamp="1614072799737">
+    <state width="1877" height="114" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614133263832" />
+    <state width="1877" height="114" key="GridCell.Tab.0.right" timestamp="1614133263832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="66" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614072799737" />
+    <state width="1877" height="114" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614133263832" />
     <state width="1877" height="280" key="GridCell.Tab.1.bottom" timestamp="1614072738306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,6 +260,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614071214519" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1614133740236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614133740236" />
     <state x="663" y="152" key="refactoring.ChangeSignatureDialog" timestamp="1614064034840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -24,7 +24,7 @@ public class GoBang {
             final int x = scanner.nextInt();
             final int y = scanner.nextInt();
             if (checkingInputOne(a, x, y) == 0) {
-                System.out.println("ERROR,please input again");
+                System.out.println("ERROR,please input again:");
                 continue;
             }
             a[x][y] = 2;
@@ -135,13 +135,13 @@ public class GoBang {
     private static boolean gameOverOne(final int[][] a, final int x, final int y, final int color, final int n) {
         int sum = 1;
         for (int i = 1; i <= n; i++) {
-            if (a[x - i][y] != color || x - i < 0) {
+            if (x - i < 0 || a[x - i][y] != color) {
                 break;
             }
             sum++;
         }
         for (int i = 1; i <= n; i++) {
-            if (a[x + i][y] != color || x + i < 0) {
+            if (x + i > 14 || a[x + i][y] != color) {
                 break;
             }
             sum++;
@@ -153,13 +153,13 @@ public class GoBang {
     private static boolean gameOverTwo(final int[][] a, final int x, final int y, final int color, final int n) {
         int sum = 1;
         for (int i = 1; i <= n; i++) {
-            if (a[x][y - i] != color || y - i < 0) {
+            if (y - i < 0 || a[x][y - i] != color) {
                 break;
             }
             sum++;
         }
         for (int i = 1; i <= n; i++) {
-            if (a[x][y + i] != color || y + i < 0) {
+            if (y + i > 14 || a[x][y + i] != color) {
                 break;
             }
             sum++;
@@ -171,13 +171,13 @@ public class GoBang {
     private static boolean gameOverThree(final int[][] a, final int x, final int y, final int color, final int n) {
         int sum = 1;
         for (int i = 1; i <= n; i++) {
-            if (a[x - i][y - i] != color || x - i < 0 || y - i < 0) {
+            if (x - i < 0 || y - i < 0 || a[x - i][y - i] != color) {
                 break;
             }
             sum++;
         }
         for (int i = 1; i <= n; i++) {
-            if (a[x + i][y + i] != color || x + i < 0 || y + i < 0) {
+            if (x + i > 14 || y + i > 14 || a[x + i][y + i] != color) {
                 break;
             }
             sum++;
@@ -189,19 +189,18 @@ public class GoBang {
     private static boolean gameOverFour(final int[][] a, final int x, final int y, final int color, final int n) {
         int sum = 1;
         for (int i = 1; i <= n; i++) {
-            if (a[x - i][y - i] != color || x - i < 0 || y - i < 0) {
+            if (x - i < 0 || y + i > 14 || a[x - i][y + i] != color) {
                 break;
             }
             sum++;
         }
         for (int i = 1; i <= n; i++) {
-            if (a[x + i][y + i] != color || x + i < 0 || y + i < 0) {
+            if (x + i > 14 || y - i < 0 || a[x + i][y - i] != color) {
                 break;
             }
             sum++;
         }
         return sum == n;
     }
-
 
 }
